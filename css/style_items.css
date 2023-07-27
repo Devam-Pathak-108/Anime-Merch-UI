@@ -1,0 +1,61 @@
+.courses{
+    margin:5px;
+    transition:box-shadow 1s;
+    /* background-color: white; */
+}
+
+.courses:hover{
+    margin:5px;
+    box-shadow: 3px 3px 3px 3px rgb(179, 133, 224);
+    /*background-color: white;*/
+}
+
+.headings{
+    padding: 15px;
+    font-size: 45px;
+    font-family: 'Garamond';
+    color:rebeccapurple;
+}
+
+.item_img{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%
+}
+
+.popular{
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
+    animation: pop 3s infinite 0.5s linear;
+    
+}
+@keyframes pop {
+    0%{
+        color:rgb(182, 40, 201);
+        transform:scale(1.1);
+    }
+    50%{
+        color: rebeccapurple;
+        transform: scale(1);
+    }
+    100%{
+        color: rgb(182, 40, 201);
+        transform: scale(1.1);
+    }
+}
+
+.prize{
+    float:right;
+    font-family: 'Garamond';
+    font-size: 20px;
+    color:rgb(70, 70, 70);
+}
+.item_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
